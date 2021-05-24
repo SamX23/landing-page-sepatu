@@ -1,0 +1,8 @@
+body {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(180deg, #6597ec 0%, #2b2aac 100%);
+}
