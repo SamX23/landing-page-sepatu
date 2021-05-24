@@ -2,3 +2,7 @@
 node_modules
 node_modules
 node_modules
+Prototype
+.next
+.prettierrc.json
+.lock
