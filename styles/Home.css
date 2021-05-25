@@ -40,6 +40,11 @@
   margin-top: -120px;
 }
 
+.shoesimg img {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .testimonial .text-testi {
   font-size: 19px;
 }
@@ -121,6 +126,14 @@
   border-radius: 50px 0px 0px 50px;
 }
 
+.prev {
+  font-size: 10pt;
+}
+
+.next {
+  font-size: 10pt;
+}
+
 .next-btn,
 .prev-btn {
   cursor: pointer;
@@ -152,6 +165,11 @@
   color: #ffbe00;
 }
 
+.sportShoeBg {
+  width: 120px;
+  padding: 2px;
+}
+
 .featured-product .product-name {
   font-size: 128px;
   font-weight: 600;
@@ -180,11 +198,20 @@
   border-color: #fff;
 }
 
+.featured-price {
+  color: #2b2aac;
+}
+
 .value-product .box-value {
   margin-top: -140px;
 }
 
 .value-product .box-value div {
+  border-radius: 10px;
+}
+
+.guarantee-section {
+  border: 1px solid #eee;
   border-radius: 10px;
 }
 

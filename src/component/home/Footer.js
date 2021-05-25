@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </div>
         <p>
-          By{" "}
+          Modified by{" "}
           <a href="https://kalamallah.xyz" className="text-white mt-2">
             Sami Kalammallah
           </a>
