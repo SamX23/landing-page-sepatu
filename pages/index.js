@@ -2,6 +2,7 @@ import Layout from "../src/component/layout";
 import AccordionFaq from "../src/component/home/Accordion";
 import Footer from "../src/component/home/Footer";
 import Navigation from "../src/component/home/Navigation";
+import Padding from "../src/component/padding";
 
 export default function Home() {
   const title = "Bakul Sepatu";
@@ -32,13 +33,9 @@ export default function Home() {
         </div>
       </header>
       <div className="shoesimg text-center mb-5">
-        <img
-          src="/images/sepatu2.png"
-          alt="sepatu"
-          // style="width: 80%;margin: 0 auto;"
-        />
+        <img src="/images/sepatu2.png" alt="sepatu" />
       </div>
-      <div className="pb-2"></div>
+      <Padding className="pb-2" />
       <div className="container testimonial mt-5">
         <div className="row">
           <div className="col-sm-6 text-center">
@@ -85,7 +82,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pb-5"></div>
+      <Padding className="pb-5" />
       <div className="container-fluid back-half mt-5" id="product-first">
         <div className="container mt-5 pt-5 pb-5">
           <div className="row">
@@ -219,7 +216,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid back-half-2 mt-5">
         <div className="container mt-5 pt-5 pb-5">
           <div className="row">
@@ -353,8 +349,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="pb-5"></div>
-      <div className="pb-5"></div>
+      <Padding className="pb-5" />
+      <Padding className="pb-5" />
       <div className="container text-center mt-5 featured-product">
         <h2 className="text-center">Produk Unggulan Kami</h2>
         <div className="product-name text-center">NIKE ABC</div>
@@ -384,8 +380,7 @@ export default function Home() {
           Beli Sekarang
         </a>
       </div>
-
-      <div className="pt-5"></div>
+      <Padding className="pt-5" />
       <div className="container">
         <div
           className="row"
@@ -405,8 +400,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-5"></div>
-
+      <Padding className="pt-5" />
       <div
         className="container-fluid mt-5"
         // style="background-color: #4D69D1;"
@@ -450,11 +444,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-5"></div>
-      <div className="pt-3"></div>
+      <Padding className="pt-5" />
+      <Padding className="pt-3" />
       <AccordionFaq />
-      <div className="p-5"></div>
-      <div className="p-2"></div>
+      <Padding className="p-5" />
+      <Padding className="p-2" />
       <Footer />
     </Layout>
   );
