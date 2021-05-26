@@ -127,46 +127,6 @@
   border-radius: 50px 0px 0px 50px;
 }
 
-.swiper-slide {
-  width: 20rem;
-  margin-right: 1rem;
-}
-
-.swiper-pagination {
-  margin-top: 100px !important;
-}
-
-.prev {
-  font-size: 10pt;
-}
-
-.next {
-  font-size: 10pt;
-}
-
-.next-btn,
-.prev-btn {
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 25px 10px 25px;
-  border-radius: 100px;
-  transition: all 0.5s;
-  outline: none;
-}
-
-.next-btn:hover,
-.prev-btn:hover {
-  border: 1px solid #000;
-  background: #164185 !important;
-  color: #fff;
-}
-
-.next-btn i,
-.prev-btn i {
-  font-size: 35pt;
-}
-
 .price-discount {
   color: rgb(167, 167, 167);
 }
