@@ -47,6 +47,7 @@
 
 .testimonial .text-testi {
   font-size: 19px;
+  height: 12rem;
 }
 
 .testimonial .col-sm-6 {
@@ -124,6 +125,15 @@
   background-size: cover;
   z-index: -1;
   border-radius: 50px 0px 0px 50px;
+}
+
+.swiper-slide {
+  width: 20rem;
+  margin-right: 1rem;
+}
+
+.swiper-pagination {
+  margin-top: 100px !important;
 }
 
 .prev {
@@ -214,6 +224,12 @@
   border: 1px solid #eee;
   border-radius: 10px;
 }
+
+.guarantee-section img {
+  width: 100%;
+  margin: auto;
+}
+
 .pitching-section {
   background-color: #4d69d1;
 }
